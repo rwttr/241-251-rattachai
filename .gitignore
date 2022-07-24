@@ -1,0 +1,10 @@
+images/
+pdf_export/
+refdocs/
+slidenote/
+*.pdf
+*.pptx
+*.ppt
+*.potx
+*.docx
+*.thmx
