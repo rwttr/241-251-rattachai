@@ -24,6 +24,9 @@ void setup() {
   digitalWrite(motor_in1,HIGH);
   digitalWrite(motor_in2,LOW);
   analogWrite(motor_en,255);    // 100% Duty Cycle PWM
+
+  // Attach Interrupt to IO pins
+  // attachInterrupt(digitalPinToInterrupt(pin_number), isr_functionhandle, CHANGE);
 }
 
 void loop() {
